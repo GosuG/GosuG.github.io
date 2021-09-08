@@ -4,62 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>CryptoLexikon</title>
     <link rel="stylesheet" href="css/crypto.css">
+    <link rel="stylesheet" href="./lib/bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    
 </head>
 
 <body>
 
-    <h1>Üdv az oldalon, remélem hasznosnak találod.</h1>
-    <div class="topnav">
-    
-        
-            <a href="/">Főoldal</a>
-        
-        
-            <a target="blank" href="https://www.kriptoworld.hu/">Hírek</a>
-        
-            <a target="blank" href="https://coinmarketcal.com/en/?form%5Bdate_range%5D=26%2F08%2F2021+-+01%2F08%2F2024&form%5Bkeyword%5D=&form%5Bcategories%5D%5B%5D=1&form%5Bsort_by%5D=date&form%5Bsubmit%5D=">Megjelenések</a>
-        
-        
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">GosuG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="blank" href="https://www.kriptoworld.hu/">Hírek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="blank" href="https://coinmarketcal.com/en/?form%5Bdate_range%5D=26%2F08%2F2021+-+01%2F08%2F2024&form%5Bkeyword%5D=&form%5Bcategories%5D%5B%5D=1&form%5Bsort_by%5D=date&form%5Bsubmit%5D=">Megjelenések</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="blank" href="https://www.tradingview.com/chart/iv9Q85GX/">Chart Analízis</a>
+              <li class="nav-item">
+                <a class="nav-link" target="blank" href="https://www.coingecko.com/hu">Érme kapitalizációk</a>
+              <li class="nav-item">
+                <a class="nav-link" target="blank" href="https://school.stockcharts.com/doku.php?id=market_analysis:the_wyckoff_method">Olvasmányok</a>
+            
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <script src="/js/timer.js" defer></script>
+    <h1>Next Full Moon</h1>
+
+    <div class="countdown-container">
+        <div class="countdown-el days-c">
+            <p class="big-text" id="days">0</p>
+            <span>days</span>
+        </div>
+        <div class="countdown-el days-c">
+            <p class="big-text" id="hours">0</p>
+            <span>hours</span>
+        </div>
+        <div class="countdown-el days-c">
+            <p class="big-text" id="mins">0</p>
+            <span>mins</span>
+        </div>
+        <div class="countdown-el days-c">
+            <p class="big-text" id="seconds">0</p>
+            <span>seconds</span>
+        </div>
        
-            <a target="blank" href="https://www.tradingview.com/chart/iv9Q85GX/">Chart Analízis</a>
-        
-        
-            <a target="blank" href="https://www.coingecko.com/hu">Érme kapitalizációk</a>
-        
-    
-</div>
+     </div>
 
 
-
-    <a href="https://www.tasteofhome.com/collection/best-hamburger-recipes/">
-        Barbecued Burgers
-    </a>
-
-    <a href="pages/orders.html">Orders</a>
-    <div>
-
-    <!--  target blank új oldalban nyitja meg a lapot  -->
-    <a target="blank" href="https://alternative.me/crypto/fear-and-greed-index/">
-        <img width="350px" src="img/greed.png" alt="Crypto Fear and Greed Index">
-    </a>
-    <p>Wyckoff method</p>
-    <a target="blank" href="https://school.stockcharts.com/doku.php?id=market_analysis:the_wyckoff_method">
-        <img width="350px" src="img/Wyckoff.jpg" alt="wyckoffmethod">
-    </a>
-
+    <div class="crypto-szoveg">
+        <p>Crypto kereskedés formái könnyűtől a nehézig:</p>
+        <ol>
+            <li>Hold/Staking</li>
+            <li>SwingTrade</li>
+            <li>Daytrade</li>
+        </ol>
     </div>
-
-    <div2>
-    <p>Crypto kereskedés formái könnyűtől a nehézig:</p>
-<ol>
-    <li>Hold/Staking</li>
-    <li>SwingTrade</li>
-    <li>Daytrade</li>
-</ol>
-    </div2>
 
 
 </body>
