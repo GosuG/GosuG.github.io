@@ -4,12 +4,6 @@
   font-weight: 400;
 }
 
-Container(
-    child: Blob.fromID(
-      id: ['12-6-839231'],
-      size: 400,
-    ),
-  )
 
 * {
   font-family: "Poppins", sans-serif;
