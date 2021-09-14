@@ -4,6 +4,13 @@
   font-weight: 400;
 }
 
+Container(
+    child: Blob.fromID(
+      id: ['12-6-839231'],
+      size: 400,
+    ),
+  )
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0px;
@@ -148,4 +155,12 @@ h1 {
 .countdown-el span {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+#bottomcenterszoveg{
+  text-align: center;
+  padding-top: 25rem;
+  font-size: 6rem;
+  text-shadow: #706f6f;
+  margin: 1rem 2rem;
 }
