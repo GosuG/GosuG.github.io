@@ -19,27 +19,39 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    letter-spacing: 0.02rem;
     
  }
 
     .elso{
+        padding-left: 3rem;
         justify-content: right;
         margin:2.5rem;
         opacity: 0.8;
     }
     .masodik{
+        padding-left: 3rem;
         justify-content: right;
         margin:2.5rem;
         opacity: 0.8;
     }
     .harmadik{
-
+        padding-left: 3rem;
         justify-content: right;
         margin:2.5rem;
         opacity: 0.8;
     }
     .negyedik{
-
+        padding-left: 3rem;
+        justify-content: right;
+        margin:2.5rem;
+        opacity: 0.8;
+    }
+    .otodik{
+      line-height: 2rem;
+      text-decoration: underline;
+        text-shadow: #4B4E53;
+        padding-left: 3rem;
         justify-content: right;
         margin:2.5rem;
         opacity: 0.8;
